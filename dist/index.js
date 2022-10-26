@@ -9688,7 +9688,7 @@ const core = __nccwpck_require__(3935);
 const github = __nccwpck_require__(6433);
 
 try {
-  const exit_code = core.get('exit-code');
+  const exit_code = core.getInput('exit-code');
   console.log(`Hello ${nameToGreet}!`);
   console.log(exit_code);
 
