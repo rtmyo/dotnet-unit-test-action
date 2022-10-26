@@ -2,7 +2,7 @@ const core = require('@actions/core');
 const github = require('@actions/github');
 
 try {
-  const exit_code = core.get('exit-code');
+  const exit_code = core.getInput('exit-code');
   console.log(`Hello ${nameToGreet}!`);
   console.log(exit_code);
 
