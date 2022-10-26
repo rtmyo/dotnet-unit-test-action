@@ -9689,7 +9689,7 @@ const github = __nccwpck_require__(6433);
 
 try {
   const exit_code = core.getInput('exit-code');
-  console.log(`Hello ${nameToGreet}!`);
+  console.log("Hello!");
   console.log(exit_code);
 
   const time = (new Date()).toTimeString();

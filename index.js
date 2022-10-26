@@ -3,7 +3,7 @@ const github = require('@actions/github');
 
 try {
   const exit_code = core.getInput('exit-code');
-  console.log(`Hello ${nameToGreet}!`);
+  console.log("Hello!");
   console.log(exit_code);
 
   const time = (new Date()).toTimeString();
